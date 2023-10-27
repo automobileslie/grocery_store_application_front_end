@@ -8,10 +8,10 @@ Here is a demo of it in action: https://www.loom.com/share/3f0fb37b5bb64514bccf4
 
 II Setup
 
-- Get the backend up and running by following the instructions at https://github.com/automobileslie/grocery_shopping_application_backend.
+- Get the backend up and running by following the instructions at https://github.com/automobileslie/grocery_shopping_application_backend. Run that on http://localhost:3000.
 - First clone the repo
 - Then, in the project directory, you can run: `npm start`, which runs the app in development mode.
-- Open [http://localhost:3000](http://localhost:3000) to view it in your browser, or at the url that your terminal directs you to (for example http://localhost:3001) if you have the backend running on localhost:3000
+- Go to [http://localhost:3001](http://localhost:3001) or whichever url the terminal tells you the app is running on.
 
 
 
