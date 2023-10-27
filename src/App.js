@@ -24,16 +24,27 @@ function App() {
   }, []) 
 
   const getReceipt = async (list_of_purchases) => {
-    const receipt = await axios.post('http://localhost:3000/receipts/process', {
-      items_purchased: list_of_purchases
-    })
-
-    setReceiptId(receipt.data.id)
+    try {
+      const receipt = await axios.post('http://localhost:3000/receipts/process', {
+        items_purchased: list_of_purchases
+      })
+      setReceiptId(receipt.data.id)
+    }
+    
+    catch(error) {
+      console.log(error)
+    }
   }
 
   const getRewardPoints = async () => {
+    try {
     const response = await axios.get(`http://localhost:3000/receipts/${receiptId}/points`)
     setPoints(response.data.points)
+    }
+
+    catch(error) {
+      console.log(error)
+    }
   }
 
   return (
