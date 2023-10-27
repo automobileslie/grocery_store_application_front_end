@@ -8,6 +8,7 @@ Here is a demo of it in action: https://www.loom.com/share/3f0fb37b5bb64514bccf4
 
 II Setup
 
+- Get the backend up and running by following the instructions at https://github.com/automobileslie/grocery_shopping_application_backend.
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 - First clone the repo
 - Then, in the project directory, you can run: `npm start`, which runs the app in development mode.
